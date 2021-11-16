@@ -1,0 +1,23 @@
+{
+  "name": "ADDevicePod",
+  "version": "0.0.1",
+  "summary": "It is pod of ADDevice framewrok",
+  "description": "This pod just a framework of ADDevice.",
+  "homepage": "https://github.com/AshwinkumarDa/ADDevicePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ashwinkumar Da": "ashwinkumard@cybage.com"
+  },
+  "source": {
+    "git": "git@github.com:AshwinkumarDa/ADDevicePod.git"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": "ADDevice.framework",
+  "source_files": "ADDevice.framework/Headers/*.h",
+  "public_header_files": "ADDevice.framework/Headers/*.h"
+}

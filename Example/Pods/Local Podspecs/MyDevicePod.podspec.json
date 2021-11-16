@@ -1,0 +1,27 @@
+{
+  "name": "MyDevicePod",
+  "version": "0.1.0",
+  "summary": "My Device",
+  "description": "This is MyDevice pod uses MyDevice pod framework to demnonstrate pod issue",
+  "homepage": "https://github.com/ashwinkumarda/MyDevicePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ashwinkumarda": "ashwinkumard@cybage.com"
+  },
+  "source": {
+    "git": "https://github.com/ashwinkumarda/MyDevicePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MyDevicePod/Classes/**/*",
+  "dependencies": {
+    "ADDevicePod": [
+
+    ]
+  }
+}

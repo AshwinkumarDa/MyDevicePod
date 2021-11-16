@@ -1,0 +1,27 @@
+PODS:
+  - ADDevicePod (0.0.1)
+  - MyDevicePod (0.1.0):
+    - ADDevicePod
+
+DEPENDENCIES:
+  - "ADDevicePod (from `git@github.com:AshwinkumarDa/ADDevicePod.git`)"
+  - MyDevicePod (from `../`)
+
+EXTERNAL SOURCES:
+  ADDevicePod:
+    :git: "git@github.com:AshwinkumarDa/ADDevicePod.git"
+  MyDevicePod:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  ADDevicePod:
+    :commit: eafbfdc258ad7df937cbe0db4916a0bfd008bbfe
+    :git: "git@github.com:AshwinkumarDa/ADDevicePod.git"
+
+SPEC CHECKSUMS:
+  ADDevicePod: 209dc5ee7512317afc4e70c00c94f45852f051b5
+  MyDevicePod: cc9b51f1798e3d4b0ebea0e3063a9b012c8ab01c
+
+PODFILE CHECKSUM: fc1aa4b82a43856ba08b1c383d739472a05d8c74
+
+COCOAPODS: 1.10.2

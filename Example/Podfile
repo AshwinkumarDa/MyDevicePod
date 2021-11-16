@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MyDevicePod_Example' do
+  pod 'MyDevicePod', :path => '../'
+  pod 'ADDevicePod', :git => 'git@github.com:AshwinkumarDa/ADDevicePod.git'
+
+  target 'MyDevicePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
